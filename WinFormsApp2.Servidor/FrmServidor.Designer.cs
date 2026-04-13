@@ -35,68 +35,67 @@
             txtBitacora = new TextBox();
             tabControl1 = new TabControl();
             tabPage1 = new TabPage();
-            tabPage2 = new TabPage();
-            tabPage3 = new TabPage();
-            tabPage4 = new TabPage();
-            tabPage5 = new TabPage();
-            tabPage6 = new TabPage();
-            tabPage7 = new TabPage();
-            lblIdCategoria = new Label();
-            txtIdCategoria = new TextBox();
+            btnMostrarCategorias = new Button();
+            dgvCategorias = new DataGridView();
+            btbAgregarCategoria = new Button();
+            txtDescripcionCategoria = new TextBox();
+            lblDescripcion = new Label();
             txtNombreCategoria = new TextBox();
             lblNombreCategoria = new Label();
-            txtDescripcion = new TextBox();
-            lblDescripcion = new Label();
-            btbAgregarCategoria = new Button();
-            dgvCategorias = new DataGridView();
-            btnMostrarCategorias = new Button();
-            lblIdVehiculo = new Label();
-            txtIdVehiculo = new TextBox();
-            txtMarcaVehiculo = new TextBox();
-            lblMarcaVehiculo = new Label();
-            txtModeloVehiculo = new TextBox();
-            lblModeloVehiculo = new Label();
-            lblAnioVehiculo = new Label();
-            txtAnioVehiculo = new TextBox();
-            txtPrecioVehiculo = new TextBox();
-            lblPrecioVehiculo = new Label();
-            lblCategoríaVehículo = new Label();
-            cmbCategoriaVehiculo = new ComboBox();
+            txtIdCategoria = new TextBox();
+            lblIdCategoria = new Label();
+            tabPage2 = new TabPage();
+            btnMostrarVehiculos = new Button();
+            dgvVehiculos = new DataGridView();
+            btnAgregarVehiculo = new Button();
             cmbEstadoVehiculo = new ComboBox();
             lblEstadoVehiculo = new Label();
-            btnAgregarVehiculo = new Button();
-            dgvVehiculos = new DataGridView();
-            btnMostrarVehiculos = new Button();
-            lblIdVendedor = new Label();
-            txtIdVendedor = new TextBox();
-            txtIdentificacionVendedor = new TextBox();
-            lblIdentificaciónVendedor = new Label();
-            txtNombreVendedor = new TextBox();
-            lblNombreVendedor = new Label();
-            lblFechaNacimientoVendedor = new Label();
-            lblFechaIngresoVendedor = new Label();
+            cmbCategoriaVehiculo = new ComboBox();
+            lblCategoríaVehículo = new Label();
+            txtPrecioVehiculo = new TextBox();
+            lblPrecioVehiculo = new Label();
+            txtAnioVehiculo = new TextBox();
+            lblAnioVehiculo = new Label();
+            txtModeloVehiculo = new TextBox();
+            lblModeloVehiculo = new Label();
+            txtMarcaVehiculo = new TextBox();
+            lblMarcaVehiculo = new Label();
+            txtIdVehiculo = new TextBox();
+            lblIdVehiculo = new Label();
+            tabPage3 = new TabPage();
+            btnMostrarVendedores = new Button();
+            dgvVendedores = new DataGridView();
+            dtpFechaIngresoVendedor = new DateTimePicker();
+            dtpFechaNacimientoVendedor = new DateTimePicker();
+            btnAgregarVendedor = new Button();
             txtTelefonoVendedor = new TextBox();
             lblTelefonoVendedor = new Label();
-            btnAgregarVendedor = new Button();
-            dtpFechaNacimientoVendedor = new DateTimePicker();
-            dtpFechaIngresoVendedor = new DateTimePicker();
-            dgvVendedores = new DataGridView();
-            btnMostrarVendedores = new Button();
-            lblIdSucursal = new Label();
-            txtIdSucursal = new TextBox();
-            txtNombreSucursal = new TextBox();
-            lblNombreSucursal = new Label();
-            txtDireccionSucursal = new TextBox();
-            lblDireccionSucursal = new Label();
+            lblFechaIngresoVendedor = new Label();
+            lblFechaNacimientoVendedor = new Label();
+            txtNombreVendedor = new TextBox();
+            lblNombreVendedor = new Label();
+            txtIdentificacionVendedor = new TextBox();
+            lblIdentificaciónVendedor = new Label();
+            txtIdVendedor = new TextBox();
+            lblIdVendedor = new Label();
+            tabPage4 = new TabPage();
+            dgvSucursales = new DataGridView();
+            btnMostrarSucursales = new Button();
+            btnAgregarSucursal = new Button();
+            chkSucursalActiva = new CheckBox();
+            cmbVendedorSucursal = new ComboBox();
+            lblSucursalActiva = new Label();
+            lblVendedorEncargado = new Label();
             txtTelefonoSucursal = new TextBox();
             lblTelefonoSucursal = new Label();
-            lblVendedorEncargado = new Label();
-            lblSucursalActiva = new Label();
-            cmbVendedorSucursal = new ComboBox();
-            chkSucursalActiva = new CheckBox();
-            btnAgregarSucursal = new Button();
-            btnMostrarSucursales = new Button();
-            dgvSucursales = new DataGridView();
+            txtDireccionSucursal = new TextBox();
+            lblDireccionSucursal = new Label();
+            txtNombreSucursal = new TextBox();
+            lblNombreSucursal = new Label();
+            txtIdSucursal = new TextBox();
+            lblIdSucursal = new Label();
+            tabPage5 = new TabPage();
+            chkClienteActivo = new CheckBox();
             btnMostrarClientes = new Button();
             dgvClientes = new DataGridView();
             dtpFechaRegistroCliente = new DateTimePicker();
@@ -111,32 +110,33 @@
             lblIdentificacionCliente = new Label();
             txtIdCliente = new TextBox();
             lblIdCliente = new Label();
-            chkClienteActivo = new CheckBox();
-            lblSucursalVxS = new Label();
-            cmbSucursalVxS = new ComboBox();
+            tabPage6 = new TabPage();
+            btnMostrarVxS = new Button();
+            dgvVehiculosxSucursal = new DataGridView();
+            btnAgregarVxS = new Button();
+            txtCantidadVxS = new TextBox();
+            lblCantidadVxS = new Label();
             cmbVehiculoVxS = new ComboBox();
             lblVehiculoVxS = new Label();
-            lblCantidadVxS = new Label();
-            txtCantidadVxS = new TextBox();
-            btnAgregarVxS = new Button();
-            dgvVehiculosxSucursal = new DataGridView();
-            btnMostrarVxS = new Button();
-            btnMostrarVentas = new Button();
+            cmbSucursalVxS = new ComboBox();
+            lblSucursalVxS = new Label();
+            tabPage7 = new TabPage();
             dgvVentas = new DataGridView();
+            btnMostrarVentas = new Button();
             tabControl1.SuspendLayout();
             tabPage1.SuspendLayout();
-            tabPage2.SuspendLayout();
-            tabPage3.SuspendLayout();
-            tabPage4.SuspendLayout();
-            tabPage5.SuspendLayout();
-            tabPage6.SuspendLayout();
-            tabPage7.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)dgvCategorias).BeginInit();
+            tabPage2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)dgvVehiculos).BeginInit();
+            tabPage3.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)dgvVendedores).BeginInit();
+            tabPage4.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)dgvSucursales).BeginInit();
+            tabPage5.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)dgvClientes).BeginInit();
+            tabPage6.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)dgvVehiculosxSucursal).BeginInit();
+            tabPage7.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)dgvVentas).BeginInit();
             SuspendLayout();
             // 
@@ -157,6 +157,7 @@
             btnIniciarServidor.TabIndex = 1;
             btnIniciarServidor.Text = "Iniciar Servidor";
             btnIniciarServidor.UseVisualStyleBackColor = true;
+            btnIniciarServidor.Click += btnIniciarServidor_Click;
             // 
             // btnDetenerServidor
             // 
@@ -166,6 +167,7 @@
             btnDetenerServidor.TabIndex = 2;
             btnDetenerServidor.Text = "Detener Servidor";
             btnDetenerServidor.UseVisualStyleBackColor = true;
+            btnDetenerServidor.Click += btnDetenerServidor_Click;
             // 
             // lblEstadoServidor
             // 
@@ -185,6 +187,7 @@
             txtBitacora.ScrollBars = ScrollBars.Vertical;
             txtBitacora.Size = new Size(895, 110);
             txtBitacora.TabIndex = 4;
+            txtBitacora.TextChanged += txtBitacora_TextChanged;
             // 
             // tabControl1
             // 
@@ -206,7 +209,7 @@
             tabPage1.Controls.Add(btnMostrarCategorias);
             tabPage1.Controls.Add(dgvCategorias);
             tabPage1.Controls.Add(btbAgregarCategoria);
-            tabPage1.Controls.Add(txtDescripcion);
+            tabPage1.Controls.Add(txtDescripcionCategoria);
             tabPage1.Controls.Add(lblDescripcion);
             tabPage1.Controls.Add(txtNombreCategoria);
             tabPage1.Controls.Add(lblNombreCategoria);
@@ -219,6 +222,83 @@
             tabPage1.TabIndex = 0;
             tabPage1.Text = "Categorías";
             tabPage1.UseVisualStyleBackColor = true;
+            // 
+            // btnMostrarCategorias
+            // 
+            btnMostrarCategorias.Location = new Point(479, 335);
+            btnMostrarCategorias.Name = "btnMostrarCategorias";
+            btnMostrarCategorias.Size = new Size(173, 29);
+            btnMostrarCategorias.TabIndex = 8;
+            btnMostrarCategorias.Text = "Mostrar Categorias";
+            btnMostrarCategorias.UseVisualStyleBackColor = true;
+            btnMostrarCategorias.Click += btnMostrarCategorias_Click;
+            // 
+            // dgvCategorias
+            // 
+            dgvCategorias.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            dgvCategorias.Location = new Point(24, 80);
+            dgvCategorias.Name = "dgvCategorias";
+            dgvCategorias.RowHeadersWidth = 51;
+            dgvCategorias.Size = new Size(1105, 233);
+            dgvCategorias.TabIndex = 7;
+            // 
+            // btbAgregarCategoria
+            // 
+            btbAgregarCategoria.Location = new Point(956, 28);
+            btbAgregarCategoria.Name = "btbAgregarCategoria";
+            btbAgregarCategoria.Size = new Size(173, 29);
+            btbAgregarCategoria.TabIndex = 6;
+            btbAgregarCategoria.Text = "Agregar Categoría";
+            btbAgregarCategoria.UseVisualStyleBackColor = true;
+            btbAgregarCategoria.Click += btbAgregarCategoria_Click;
+            // 
+            // txtDescripcionCategoria
+            // 
+            txtDescripcionCategoria.Location = new Point(668, 25);
+            txtDescripcionCategoria.Name = "txtDescripcionCategoria";
+            txtDescripcionCategoria.Size = new Size(198, 27);
+            txtDescripcionCategoria.TabIndex = 5;
+            // 
+            // lblDescripcion
+            // 
+            lblDescripcion.AutoSize = true;
+            lblDescripcion.Location = new Point(565, 32);
+            lblDescripcion.Name = "lblDescripcion";
+            lblDescripcion.Size = new Size(87, 20);
+            lblDescripcion.TabIndex = 4;
+            lblDescripcion.Text = "Descripción";
+            // 
+            // txtNombreCategoria
+            // 
+            txtNombreCategoria.Location = new Point(411, 25);
+            txtNombreCategoria.Name = "txtNombreCategoria";
+            txtNombreCategoria.Size = new Size(125, 27);
+            txtNombreCategoria.TabIndex = 3;
+            // 
+            // lblNombreCategoria
+            // 
+            lblNombreCategoria.AutoSize = true;
+            lblNombreCategoria.Location = new Point(272, 32);
+            lblNombreCategoria.Name = "lblNombreCategoria";
+            lblNombreCategoria.Size = new Size(133, 20);
+            lblNombreCategoria.TabIndex = 2;
+            lblNombreCategoria.Text = "Nombre Categoría";
+            // 
+            // txtIdCategoria
+            // 
+            txtIdCategoria.Location = new Point(121, 25);
+            txtIdCategoria.Name = "txtIdCategoria";
+            txtIdCategoria.Size = new Size(125, 27);
+            txtIdCategoria.TabIndex = 1;
+            // 
+            // lblIdCategoria
+            // 
+            lblIdCategoria.AutoSize = true;
+            lblIdCategoria.Location = new Point(24, 32);
+            lblIdCategoria.Name = "lblIdCategoria";
+            lblIdCategoria.Size = new Size(91, 20);
+            lblIdCategoria.TabIndex = 0;
+            lblIdCategoria.Text = "Id Categoría";
             // 
             // tabPage2
             // 
@@ -247,6 +327,150 @@
             tabPage2.Text = "Vehículos";
             tabPage2.UseVisualStyleBackColor = true;
             // 
+            // btnMostrarVehiculos
+            // 
+            btnMostrarVehiculos.Location = new Point(696, 13);
+            btnMostrarVehiculos.Name = "btnMostrarVehiculos";
+            btnMostrarVehiculos.Size = new Size(167, 29);
+            btnMostrarVehiculos.TabIndex = 16;
+            btnMostrarVehiculos.Text = "Mostrar Vehiculos";
+            btnMostrarVehiculos.UseVisualStyleBackColor = true;
+            btnMostrarVehiculos.Click += btnMostrarVehiculos_Click;
+            // 
+            // dgvVehiculos
+            // 
+            dgvVehiculos.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            dgvVehiculos.Location = new Point(333, 60);
+            dgvVehiculos.Name = "dgvVehiculos";
+            dgvVehiculos.RowHeadersWidth = 51;
+            dgvVehiculos.Size = new Size(832, 288);
+            dgvVehiculos.TabIndex = 15;
+            // 
+            // btnAgregarVehiculo
+            // 
+            btnAgregarVehiculo.Location = new Point(88, 319);
+            btnAgregarVehiculo.Name = "btnAgregarVehiculo";
+            btnAgregarVehiculo.Size = new Size(171, 29);
+            btnAgregarVehiculo.TabIndex = 14;
+            btnAgregarVehiculo.Text = "Agregar Vehículo";
+            btnAgregarVehiculo.UseVisualStyleBackColor = true;
+            btnAgregarVehiculo.Click += btnAgregarVehiculo_Click;
+            // 
+            // cmbEstadoVehiculo
+            // 
+            cmbEstadoVehiculo.FormattingEnabled = true;
+            cmbEstadoVehiculo.Items.AddRange(new object[] { "* N ", "*U" });
+            cmbEstadoVehiculo.Location = new Point(155, 266);
+            cmbEstadoVehiculo.Name = "cmbEstadoVehiculo";
+            cmbEstadoVehiculo.Size = new Size(151, 28);
+            cmbEstadoVehiculo.TabIndex = 13;
+            // 
+            // lblEstadoVehiculo
+            // 
+            lblEstadoVehiculo.AutoSize = true;
+            lblEstadoVehiculo.Location = new Point(39, 274);
+            lblEstadoVehiculo.Name = "lblEstadoVehiculo";
+            lblEstadoVehiculo.Size = new Size(54, 20);
+            lblEstadoVehiculo.TabIndex = 12;
+            lblEstadoVehiculo.Text = "Estado";
+            // 
+            // cmbCategoriaVehiculo
+            // 
+            cmbCategoriaVehiculo.FormattingEnabled = true;
+            cmbCategoriaVehiculo.Location = new Point(155, 219);
+            cmbCategoriaVehiculo.Name = "cmbCategoriaVehiculo";
+            cmbCategoriaVehiculo.Size = new Size(151, 28);
+            cmbCategoriaVehiculo.TabIndex = 11;
+            // 
+            // lblCategoríaVehículo
+            // 
+            lblCategoríaVehículo.AutoSize = true;
+            lblCategoríaVehículo.Location = new Point(39, 227);
+            lblCategoríaVehículo.Name = "lblCategoríaVehículo";
+            lblCategoríaVehículo.Size = new Size(74, 20);
+            lblCategoríaVehículo.TabIndex = 10;
+            lblCategoríaVehículo.Text = "Categoría";
+            // 
+            // txtPrecioVehiculo
+            // 
+            txtPrecioVehiculo.Location = new Point(155, 175);
+            txtPrecioVehiculo.Name = "txtPrecioVehiculo";
+            txtPrecioVehiculo.Size = new Size(125, 27);
+            txtPrecioVehiculo.TabIndex = 9;
+            // 
+            // lblPrecioVehiculo
+            // 
+            lblPrecioVehiculo.AutoSize = true;
+            lblPrecioVehiculo.Location = new Point(39, 182);
+            lblPrecioVehiculo.Name = "lblPrecioVehiculo";
+            lblPrecioVehiculo.Size = new Size(50, 20);
+            lblPrecioVehiculo.TabIndex = 8;
+            lblPrecioVehiculo.Text = "Precio";
+            // 
+            // txtAnioVehiculo
+            // 
+            txtAnioVehiculo.Location = new Point(155, 135);
+            txtAnioVehiculo.Name = "txtAnioVehiculo";
+            txtAnioVehiculo.Size = new Size(125, 27);
+            txtAnioVehiculo.TabIndex = 7;
+            // 
+            // lblAnioVehiculo
+            // 
+            lblAnioVehiculo.AutoSize = true;
+            lblAnioVehiculo.Location = new Point(39, 142);
+            lblAnioVehiculo.Name = "lblAnioVehiculo";
+            lblAnioVehiculo.Size = new Size(36, 20);
+            lblAnioVehiculo.TabIndex = 6;
+            lblAnioVehiculo.Text = "Año";
+            // 
+            // txtModeloVehiculo
+            // 
+            txtModeloVehiculo.Location = new Point(155, 92);
+            txtModeloVehiculo.Name = "txtModeloVehiculo";
+            txtModeloVehiculo.Size = new Size(125, 27);
+            txtModeloVehiculo.TabIndex = 5;
+            // 
+            // lblModeloVehiculo
+            // 
+            lblModeloVehiculo.AutoSize = true;
+            lblModeloVehiculo.Location = new Point(39, 99);
+            lblModeloVehiculo.Name = "lblModeloVehiculo";
+            lblModeloVehiculo.Size = new Size(61, 20);
+            lblModeloVehiculo.TabIndex = 4;
+            lblModeloVehiculo.Text = "Modelo";
+            // 
+            // txtMarcaVehiculo
+            // 
+            txtMarcaVehiculo.Location = new Point(155, 53);
+            txtMarcaVehiculo.Name = "txtMarcaVehiculo";
+            txtMarcaVehiculo.Size = new Size(125, 27);
+            txtMarcaVehiculo.TabIndex = 3;
+            // 
+            // lblMarcaVehiculo
+            // 
+            lblMarcaVehiculo.AutoSize = true;
+            lblMarcaVehiculo.Location = new Point(39, 60);
+            lblMarcaVehiculo.Name = "lblMarcaVehiculo";
+            lblMarcaVehiculo.Size = new Size(50, 20);
+            lblMarcaVehiculo.TabIndex = 2;
+            lblMarcaVehiculo.Text = "Marca";
+            // 
+            // txtIdVehiculo
+            // 
+            txtIdVehiculo.Location = new Point(155, 6);
+            txtIdVehiculo.Name = "txtIdVehiculo";
+            txtIdVehiculo.Size = new Size(125, 27);
+            txtIdVehiculo.TabIndex = 1;
+            // 
+            // lblIdVehiculo
+            // 
+            lblIdVehiculo.AutoSize = true;
+            lblIdVehiculo.Location = new Point(39, 13);
+            lblIdVehiculo.Name = "lblIdVehiculo";
+            lblIdVehiculo.Size = new Size(82, 20);
+            lblIdVehiculo.TabIndex = 0;
+            lblIdVehiculo.Text = "Id Vehículo";
+            // 
             // tabPage3
             // 
             tabPage3.Controls.Add(btnMostrarVendedores);
@@ -271,6 +495,131 @@
             tabPage3.TabIndex = 2;
             tabPage3.Text = "Vendedores";
             tabPage3.UseVisualStyleBackColor = true;
+            // 
+            // btnMostrarVendedores
+            // 
+            btnMostrarVendedores.Location = new Point(782, 18);
+            btnMostrarVendedores.Name = "btnMostrarVendedores";
+            btnMostrarVendedores.Size = new Size(168, 29);
+            btnMostrarVendedores.TabIndex = 16;
+            btnMostrarVendedores.Text = "Mostrar Vendedores";
+            btnMostrarVendedores.UseVisualStyleBackColor = true;
+            btnMostrarVendedores.Click += btnMostrarVendedores_Click;
+            // 
+            // dgvVendedores
+            // 
+            dgvVendedores.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            dgvVendedores.Location = new Point(484, 59);
+            dgvVendedores.Name = "dgvVendedores";
+            dgvVendedores.RowHeadersWidth = 51;
+            dgvVendedores.Size = new Size(710, 306);
+            dgvVendedores.TabIndex = 15;
+            // 
+            // dtpFechaIngresoVendedor
+            // 
+            dtpFechaIngresoVendedor.Location = new Point(185, 212);
+            dtpFechaIngresoVendedor.Name = "dtpFechaIngresoVendedor";
+            dtpFechaIngresoVendedor.Size = new Size(282, 27);
+            dtpFechaIngresoVendedor.TabIndex = 14;
+            // 
+            // dtpFechaNacimientoVendedor
+            // 
+            dtpFechaNacimientoVendedor.Location = new Point(185, 158);
+            dtpFechaNacimientoVendedor.Name = "dtpFechaNacimientoVendedor";
+            dtpFechaNacimientoVendedor.Size = new Size(282, 27);
+            dtpFechaNacimientoVendedor.TabIndex = 13;
+            // 
+            // btnAgregarVendedor
+            // 
+            btnAgregarVendedor.Location = new Point(86, 322);
+            btnAgregarVendedor.Name = "btnAgregarVendedor";
+            btnAgregarVendedor.Size = new Size(162, 29);
+            btnAgregarVendedor.TabIndex = 12;
+            btnAgregarVendedor.Text = "Agregar Vendedor";
+            btnAgregarVendedor.UseVisualStyleBackColor = true;
+            btnAgregarVendedor.Click += btnAgregarVendedor_Click;
+            // 
+            // txtTelefonoVendedor
+            // 
+            txtTelefonoVendedor.Location = new Point(185, 266);
+            txtTelefonoVendedor.Name = "txtTelefonoVendedor";
+            txtTelefonoVendedor.Size = new Size(125, 27);
+            txtTelefonoVendedor.TabIndex = 11;
+            // 
+            // lblTelefonoVendedor
+            // 
+            lblTelefonoVendedor.AutoSize = true;
+            lblTelefonoVendedor.Location = new Point(29, 273);
+            lblTelefonoVendedor.Name = "lblTelefonoVendedor";
+            lblTelefonoVendedor.Size = new Size(67, 20);
+            lblTelefonoVendedor.TabIndex = 10;
+            lblTelefonoVendedor.Text = "Teléfono";
+            // 
+            // lblFechaIngresoVendedor
+            // 
+            lblFechaIngresoVendedor.AutoSize = true;
+            lblFechaIngresoVendedor.Location = new Point(29, 219);
+            lblFechaIngresoVendedor.Name = "lblFechaIngresoVendedor";
+            lblFechaIngresoVendedor.Size = new Size(100, 20);
+            lblFechaIngresoVendedor.TabIndex = 8;
+            lblFechaIngresoVendedor.Text = "Fecha Ingreso";
+            // 
+            // lblFechaNacimientoVendedor
+            // 
+            lblFechaNacimientoVendedor.AutoSize = true;
+            lblFechaNacimientoVendedor.Location = new Point(29, 165);
+            lblFechaNacimientoVendedor.Name = "lblFechaNacimientoVendedor";
+            lblFechaNacimientoVendedor.Size = new Size(128, 20);
+            lblFechaNacimientoVendedor.TabIndex = 6;
+            lblFechaNacimientoVendedor.Text = "Fecha Nacimiento";
+            // 
+            // txtNombreVendedor
+            // 
+            txtNombreVendedor.Location = new Point(185, 107);
+            txtNombreVendedor.Name = "txtNombreVendedor";
+            txtNombreVendedor.Size = new Size(125, 27);
+            txtNombreVendedor.TabIndex = 5;
+            // 
+            // lblNombreVendedor
+            // 
+            lblNombreVendedor.AutoSize = true;
+            lblNombreVendedor.Location = new Point(29, 114);
+            lblNombreVendedor.Name = "lblNombreVendedor";
+            lblNombreVendedor.Size = new Size(134, 20);
+            lblNombreVendedor.TabIndex = 4;
+            lblNombreVendedor.Text = "Nombre Completo";
+            // 
+            // txtIdentificacionVendedor
+            // 
+            txtIdentificacionVendedor.Location = new Point(185, 59);
+            txtIdentificacionVendedor.Name = "txtIdentificacionVendedor";
+            txtIdentificacionVendedor.Size = new Size(125, 27);
+            txtIdentificacionVendedor.TabIndex = 3;
+            // 
+            // lblIdentificaciónVendedor
+            // 
+            lblIdentificaciónVendedor.AutoSize = true;
+            lblIdentificaciónVendedor.Location = new Point(29, 66);
+            lblIdentificaciónVendedor.Name = "lblIdentificaciónVendedor";
+            lblIdentificaciónVendedor.Size = new Size(99, 20);
+            lblIdentificaciónVendedor.TabIndex = 2;
+            lblIdentificaciónVendedor.Text = "Identificación";
+            // 
+            // txtIdVendedor
+            // 
+            txtIdVendedor.Location = new Point(185, 11);
+            txtIdVendedor.Name = "txtIdVendedor";
+            txtIdVendedor.Size = new Size(125, 27);
+            txtIdVendedor.TabIndex = 1;
+            // 
+            // lblIdVendedor
+            // 
+            lblIdVendedor.AutoSize = true;
+            lblIdVendedor.Location = new Point(29, 18);
+            lblIdVendedor.Name = "lblIdVendedor";
+            lblIdVendedor.Size = new Size(90, 20);
+            lblIdVendedor.TabIndex = 0;
+            lblIdVendedor.Text = "Id Vendedor";
             // 
             // tabPage4
             // 
@@ -297,6 +646,136 @@
             tabPage4.Text = "Sucursales";
             tabPage4.UseVisualStyleBackColor = true;
             // 
+            // dgvSucursales
+            // 
+            dgvSucursales.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            dgvSucursales.Location = new Point(389, 58);
+            dgvSucursales.Name = "dgvSucursales";
+            dgvSucursales.RowHeadersWidth = 51;
+            dgvSucursales.Size = new Size(790, 309);
+            dgvSucursales.TabIndex = 16;
+            // 
+            // btnMostrarSucursales
+            // 
+            btnMostrarSucursales.Location = new Point(705, 15);
+            btnMostrarSucursales.Name = "btnMostrarSucursales";
+            btnMostrarSucursales.Size = new Size(206, 29);
+            btnMostrarSucursales.TabIndex = 15;
+            btnMostrarSucursales.Text = "Mostrar Sucursales";
+            btnMostrarSucursales.UseVisualStyleBackColor = true;
+            btnMostrarSucursales.Click += btnMostrarSucursales_Click;
+            // 
+            // btnAgregarSucursal
+            // 
+            btnAgregarSucursal.Location = new Point(78, 294);
+            btnAgregarSucursal.Name = "btnAgregarSucursal";
+            btnAgregarSucursal.Size = new Size(193, 29);
+            btnAgregarSucursal.TabIndex = 14;
+            btnAgregarSucursal.Text = "Agregar Sucursal";
+            btnAgregarSucursal.UseVisualStyleBackColor = true;
+            btnAgregarSucursal.Click += btnAgregarSucursal_Click;
+            // 
+            // chkSucursalActiva
+            // 
+            chkSucursalActiva.AutoSize = true;
+            chkSucursalActiva.Location = new Point(185, 243);
+            chkSucursalActiva.Name = "chkSucursalActiva";
+            chkSucursalActiva.Size = new Size(18, 17);
+            chkSucursalActiva.TabIndex = 13;
+            chkSucursalActiva.UseVisualStyleBackColor = true;
+            // 
+            // cmbVendedorSucursal
+            // 
+            cmbVendedorSucursal.FormattingEnabled = true;
+            cmbVendedorSucursal.Location = new Point(185, 190);
+            cmbVendedorSucursal.Name = "cmbVendedorSucursal";
+            cmbVendedorSucursal.Size = new Size(151, 28);
+            cmbVendedorSucursal.TabIndex = 12;
+            cmbVendedorSucursal.SelectedIndexChanged += cmbVendedorSucursal_SelectedIndexChanged;
+            // 
+            // lblSucursalActiva
+            // 
+            lblSucursalActiva.AutoSize = true;
+            lblSucursalActiva.Location = new Point(26, 247);
+            lblSucursalActiva.Name = "lblSucursalActiva";
+            lblSucursalActiva.Size = new Size(50, 20);
+            lblSucursalActiva.TabIndex = 10;
+            lblSucursalActiva.Text = "Activa";
+            // 
+            // lblVendedorEncargado
+            // 
+            lblVendedorEncargado.AutoSize = true;
+            lblVendedorEncargado.Location = new Point(26, 198);
+            lblVendedorEncargado.Name = "lblVendedorEncargado";
+            lblVendedorEncargado.Size = new Size(148, 20);
+            lblVendedorEncargado.TabIndex = 8;
+            lblVendedorEncargado.Text = "Vendedor Encargado";
+            // 
+            // txtTelefonoSucursal
+            // 
+            txtTelefonoSucursal.Location = new Point(185, 143);
+            txtTelefonoSucursal.Name = "txtTelefonoSucursal";
+            txtTelefonoSucursal.Size = new Size(125, 27);
+            txtTelefonoSucursal.TabIndex = 7;
+            // 
+            // lblTelefonoSucursal
+            // 
+            lblTelefonoSucursal.AutoSize = true;
+            lblTelefonoSucursal.Location = new Point(26, 150);
+            lblTelefonoSucursal.Name = "lblTelefonoSucursal";
+            lblTelefonoSucursal.Size = new Size(67, 20);
+            lblTelefonoSucursal.TabIndex = 6;
+            lblTelefonoSucursal.Text = "Teléfono";
+            // 
+            // txtDireccionSucursal
+            // 
+            txtDireccionSucursal.Location = new Point(185, 97);
+            txtDireccionSucursal.Name = "txtDireccionSucursal";
+            txtDireccionSucursal.Size = new Size(125, 27);
+            txtDireccionSucursal.TabIndex = 5;
+            // 
+            // lblDireccionSucursal
+            // 
+            lblDireccionSucursal.AutoSize = true;
+            lblDireccionSucursal.Location = new Point(26, 104);
+            lblDireccionSucursal.Name = "lblDireccionSucursal";
+            lblDireccionSucursal.Size = new Size(72, 20);
+            lblDireccionSucursal.TabIndex = 4;
+            lblDireccionSucursal.Text = "Dirección";
+            // 
+            // txtNombreSucursal
+            // 
+            txtNombreSucursal.Location = new Point(185, 51);
+            txtNombreSucursal.Name = "txtNombreSucursal";
+            txtNombreSucursal.Size = new Size(125, 27);
+            txtNombreSucursal.TabIndex = 3;
+            txtNombreSucursal.TextChanged += textBox2_TextChanged;
+            // 
+            // lblNombreSucursal
+            // 
+            lblNombreSucursal.AutoSize = true;
+            lblNombreSucursal.Location = new Point(26, 58);
+            lblNombreSucursal.Name = "lblNombreSucursal";
+            lblNombreSucursal.Size = new Size(68, 20);
+            lblNombreSucursal.TabIndex = 2;
+            lblNombreSucursal.Text = "Nombre ";
+            // 
+            // txtIdSucursal
+            // 
+            txtIdSucursal.Location = new Point(185, 8);
+            txtIdSucursal.Name = "txtIdSucursal";
+            txtIdSucursal.Size = new Size(125, 27);
+            txtIdSucursal.TabIndex = 1;
+            // 
+            // lblIdSucursal
+            // 
+            lblIdSucursal.AutoSize = true;
+            lblIdSucursal.Location = new Point(26, 15);
+            lblIdSucursal.Name = "lblIdSucursal";
+            lblIdSucursal.Size = new Size(80, 20);
+            lblIdSucursal.TabIndex = 0;
+            lblIdSucursal.Text = "Id Sucursal";
+            // 
             // tabPage5
             // 
             tabPage5.Controls.Add(chkClienteActivo);
@@ -322,503 +801,14 @@
             tabPage5.Text = "Clientes";
             tabPage5.UseVisualStyleBackColor = true;
             // 
-            // tabPage6
-            // 
-            tabPage6.Controls.Add(btnMostrarVxS);
-            tabPage6.Controls.Add(dgvVehiculosxSucursal);
-            tabPage6.Controls.Add(btnAgregarVxS);
-            tabPage6.Controls.Add(txtCantidadVxS);
-            tabPage6.Controls.Add(lblCantidadVxS);
-            tabPage6.Controls.Add(cmbVehiculoVxS);
-            tabPage6.Controls.Add(lblVehiculoVxS);
-            tabPage6.Controls.Add(cmbSucursalVxS);
-            tabPage6.Controls.Add(lblSucursalVxS);
-            tabPage6.Location = new Point(4, 29);
-            tabPage6.Name = "tabPage6";
-            tabPage6.Padding = new Padding(3);
-            tabPage6.Size = new Size(1200, 390);
-            tabPage6.TabIndex = 5;
-            tabPage6.Text = "Vehículo x Sucursal";
-            tabPage6.UseVisualStyleBackColor = true;
-            // 
-            // tabPage7
-            // 
-            tabPage7.Controls.Add(dgvVentas);
-            tabPage7.Controls.Add(btnMostrarVentas);
-            tabPage7.Location = new Point(4, 29);
-            tabPage7.Name = "tabPage7";
-            tabPage7.Padding = new Padding(3);
-            tabPage7.Size = new Size(1200, 390);
-            tabPage7.TabIndex = 6;
-            tabPage7.Text = "Ventas";
-            tabPage7.UseVisualStyleBackColor = true;
-            // 
-            // lblIdCategoria
-            // 
-            lblIdCategoria.AutoSize = true;
-            lblIdCategoria.Location = new Point(24, 32);
-            lblIdCategoria.Name = "lblIdCategoria";
-            lblIdCategoria.Size = new Size(91, 20);
-            lblIdCategoria.TabIndex = 0;
-            lblIdCategoria.Text = "Id Categoría";
-            // 
-            // txtIdCategoria
-            // 
-            txtIdCategoria.Location = new Point(121, 25);
-            txtIdCategoria.Name = "txtIdCategoria";
-            txtIdCategoria.Size = new Size(125, 27);
-            txtIdCategoria.TabIndex = 1;
-            // 
-            // txtNombreCategoria
-            // 
-            txtNombreCategoria.Location = new Point(411, 25);
-            txtNombreCategoria.Name = "txtNombreCategoria";
-            txtNombreCategoria.Size = new Size(125, 27);
-            txtNombreCategoria.TabIndex = 3;
-            // 
-            // lblNombreCategoria
-            // 
-            lblNombreCategoria.AutoSize = true;
-            lblNombreCategoria.Location = new Point(272, 32);
-            lblNombreCategoria.Name = "lblNombreCategoria";
-            lblNombreCategoria.Size = new Size(133, 20);
-            lblNombreCategoria.TabIndex = 2;
-            lblNombreCategoria.Text = "Nombre Categoría";
-            // 
-            // txtDescripcion
-            // 
-            txtDescripcion.Location = new Point(668, 25);
-            txtDescripcion.Name = "txtDescripcion";
-            txtDescripcion.Size = new Size(198, 27);
-            txtDescripcion.TabIndex = 5;
-            // 
-            // lblDescripcion
-            // 
-            lblDescripcion.AutoSize = true;
-            lblDescripcion.Location = new Point(565, 32);
-            lblDescripcion.Name = "lblDescripcion";
-            lblDescripcion.Size = new Size(87, 20);
-            lblDescripcion.TabIndex = 4;
-            lblDescripcion.Text = "Descripción";
-            // 
-            // btbAgregarCategoria
-            // 
-            btbAgregarCategoria.Location = new Point(956, 28);
-            btbAgregarCategoria.Name = "btbAgregarCategoria";
-            btbAgregarCategoria.Size = new Size(173, 29);
-            btbAgregarCategoria.TabIndex = 6;
-            btbAgregarCategoria.Text = "Agregar Categoría";
-            btbAgregarCategoria.UseVisualStyleBackColor = true;
-            // 
-            // dgvCategorias
-            // 
-            dgvCategorias.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dgvCategorias.Location = new Point(24, 80);
-            dgvCategorias.Name = "dgvCategorias";
-            dgvCategorias.RowHeadersWidth = 51;
-            dgvCategorias.Size = new Size(1105, 233);
-            dgvCategorias.TabIndex = 7;
-            // 
-            // btnMostrarCategorias
-            // 
-            btnMostrarCategorias.Location = new Point(479, 335);
-            btnMostrarCategorias.Name = "btnMostrarCategorias";
-            btnMostrarCategorias.Size = new Size(173, 29);
-            btnMostrarCategorias.TabIndex = 8;
-            btnMostrarCategorias.Text = "Mostrar Categorias";
-            btnMostrarCategorias.UseVisualStyleBackColor = true;
-            // 
-            // lblIdVehiculo
-            // 
-            lblIdVehiculo.AutoSize = true;
-            lblIdVehiculo.Location = new Point(39, 13);
-            lblIdVehiculo.Name = "lblIdVehiculo";
-            lblIdVehiculo.Size = new Size(82, 20);
-            lblIdVehiculo.TabIndex = 0;
-            lblIdVehiculo.Text = "Id Vehículo";
-            // 
-            // txtIdVehiculo
-            // 
-            txtIdVehiculo.Location = new Point(155, 6);
-            txtIdVehiculo.Name = "txtIdVehiculo";
-            txtIdVehiculo.Size = new Size(125, 27);
-            txtIdVehiculo.TabIndex = 1;
-            // 
-            // txtMarcaVehiculo
-            // 
-            txtMarcaVehiculo.Location = new Point(155, 53);
-            txtMarcaVehiculo.Name = "txtMarcaVehiculo";
-            txtMarcaVehiculo.Size = new Size(125, 27);
-            txtMarcaVehiculo.TabIndex = 3;
-            // 
-            // lblMarcaVehiculo
-            // 
-            lblMarcaVehiculo.AutoSize = true;
-            lblMarcaVehiculo.Location = new Point(39, 60);
-            lblMarcaVehiculo.Name = "lblMarcaVehiculo";
-            lblMarcaVehiculo.Size = new Size(50, 20);
-            lblMarcaVehiculo.TabIndex = 2;
-            lblMarcaVehiculo.Text = "Marca";
-            // 
-            // txtModeloVehiculo
-            // 
-            txtModeloVehiculo.Location = new Point(155, 92);
-            txtModeloVehiculo.Name = "txtModeloVehiculo";
-            txtModeloVehiculo.Size = new Size(125, 27);
-            txtModeloVehiculo.TabIndex = 5;
-            // 
-            // lblModeloVehiculo
-            // 
-            lblModeloVehiculo.AutoSize = true;
-            lblModeloVehiculo.Location = new Point(39, 99);
-            lblModeloVehiculo.Name = "lblModeloVehiculo";
-            lblModeloVehiculo.Size = new Size(61, 20);
-            lblModeloVehiculo.TabIndex = 4;
-            lblModeloVehiculo.Text = "Modelo";
-            // 
-            // lblAnioVehiculo
-            // 
-            lblAnioVehiculo.AutoSize = true;
-            lblAnioVehiculo.Location = new Point(39, 142);
-            lblAnioVehiculo.Name = "lblAnioVehiculo";
-            lblAnioVehiculo.Size = new Size(36, 20);
-            lblAnioVehiculo.TabIndex = 6;
-            lblAnioVehiculo.Text = "Año";
-            // 
-            // txtAnioVehiculo
-            // 
-            txtAnioVehiculo.Location = new Point(155, 135);
-            txtAnioVehiculo.Name = "txtAnioVehiculo";
-            txtAnioVehiculo.Size = new Size(125, 27);
-            txtAnioVehiculo.TabIndex = 7;
-            // 
-            // txtPrecioVehiculo
-            // 
-            txtPrecioVehiculo.Location = new Point(155, 175);
-            txtPrecioVehiculo.Name = "txtPrecioVehiculo";
-            txtPrecioVehiculo.Size = new Size(125, 27);
-            txtPrecioVehiculo.TabIndex = 9;
-            // 
-            // lblPrecioVehiculo
-            // 
-            lblPrecioVehiculo.AutoSize = true;
-            lblPrecioVehiculo.Location = new Point(39, 182);
-            lblPrecioVehiculo.Name = "lblPrecioVehiculo";
-            lblPrecioVehiculo.Size = new Size(50, 20);
-            lblPrecioVehiculo.TabIndex = 8;
-            lblPrecioVehiculo.Text = "Precio";
-            // 
-            // lblCategoríaVehículo
-            // 
-            lblCategoríaVehículo.AutoSize = true;
-            lblCategoríaVehículo.Location = new Point(39, 227);
-            lblCategoríaVehículo.Name = "lblCategoríaVehículo";
-            lblCategoríaVehículo.Size = new Size(74, 20);
-            lblCategoríaVehículo.TabIndex = 10;
-            lblCategoríaVehículo.Text = "Categoría";
-            // 
-            // cmbCategoriaVehiculo
-            // 
-            cmbCategoriaVehiculo.FormattingEnabled = true;
-            cmbCategoriaVehiculo.Location = new Point(155, 219);
-            cmbCategoriaVehiculo.Name = "cmbCategoriaVehiculo";
-            cmbCategoriaVehiculo.Size = new Size(151, 28);
-            cmbCategoriaVehiculo.TabIndex = 11;
-            // 
-            // cmbEstadoVehiculo
-            // 
-            cmbEstadoVehiculo.FormattingEnabled = true;
-            cmbEstadoVehiculo.Items.AddRange(new object[] { "* N ", "*U" });
-            cmbEstadoVehiculo.Location = new Point(155, 266);
-            cmbEstadoVehiculo.Name = "cmbEstadoVehiculo";
-            cmbEstadoVehiculo.Size = new Size(151, 28);
-            cmbEstadoVehiculo.TabIndex = 13;
-            // 
-            // lblEstadoVehiculo
-            // 
-            lblEstadoVehiculo.AutoSize = true;
-            lblEstadoVehiculo.Location = new Point(39, 274);
-            lblEstadoVehiculo.Name = "lblEstadoVehiculo";
-            lblEstadoVehiculo.Size = new Size(54, 20);
-            lblEstadoVehiculo.TabIndex = 12;
-            lblEstadoVehiculo.Text = "Estado";
-            // 
-            // btnAgregarVehiculo
-            // 
-            btnAgregarVehiculo.Location = new Point(88, 319);
-            btnAgregarVehiculo.Name = "btnAgregarVehiculo";
-            btnAgregarVehiculo.Size = new Size(171, 29);
-            btnAgregarVehiculo.TabIndex = 14;
-            btnAgregarVehiculo.Text = "Agregar Vehículo";
-            btnAgregarVehiculo.UseVisualStyleBackColor = true;
-            // 
-            // dgvVehiculos
-            // 
-            dgvVehiculos.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dgvVehiculos.Location = new Point(333, 60);
-            dgvVehiculos.Name = "dgvVehiculos";
-            dgvVehiculos.RowHeadersWidth = 51;
-            dgvVehiculos.Size = new Size(832, 288);
-            dgvVehiculos.TabIndex = 15;
-            // 
-            // btnMostrarVehiculos
-            // 
-            btnMostrarVehiculos.Location = new Point(696, 13);
-            btnMostrarVehiculos.Name = "btnMostrarVehiculos";
-            btnMostrarVehiculos.Size = new Size(167, 29);
-            btnMostrarVehiculos.TabIndex = 16;
-            btnMostrarVehiculos.Text = "Mostrar Vehiculos";
-            btnMostrarVehiculos.UseVisualStyleBackColor = true;
-            // 
-            // lblIdVendedor
-            // 
-            lblIdVendedor.AutoSize = true;
-            lblIdVendedor.Location = new Point(29, 18);
-            lblIdVendedor.Name = "lblIdVendedor";
-            lblIdVendedor.Size = new Size(90, 20);
-            lblIdVendedor.TabIndex = 0;
-            lblIdVendedor.Text = "Id Vendedor";
-            // 
-            // txtIdVendedor
-            // 
-            txtIdVendedor.Location = new Point(185, 11);
-            txtIdVendedor.Name = "txtIdVendedor";
-            txtIdVendedor.Size = new Size(125, 27);
-            txtIdVendedor.TabIndex = 1;
-            // 
-            // txtIdentificacionVendedor
-            // 
-            txtIdentificacionVendedor.Location = new Point(185, 59);
-            txtIdentificacionVendedor.Name = "txtIdentificacionVendedor";
-            txtIdentificacionVendedor.Size = new Size(125, 27);
-            txtIdentificacionVendedor.TabIndex = 3;
-            // 
-            // lblIdentificaciónVendedor
-            // 
-            lblIdentificaciónVendedor.AutoSize = true;
-            lblIdentificaciónVendedor.Location = new Point(29, 66);
-            lblIdentificaciónVendedor.Name = "lblIdentificaciónVendedor";
-            lblIdentificaciónVendedor.Size = new Size(99, 20);
-            lblIdentificaciónVendedor.TabIndex = 2;
-            lblIdentificaciónVendedor.Text = "Identificación";
-            // 
-            // txtNombreVendedor
-            // 
-            txtNombreVendedor.Location = new Point(185, 107);
-            txtNombreVendedor.Name = "txtNombreVendedor";
-            txtNombreVendedor.Size = new Size(125, 27);
-            txtNombreVendedor.TabIndex = 5;
-            // 
-            // lblNombreVendedor
-            // 
-            lblNombreVendedor.AutoSize = true;
-            lblNombreVendedor.Location = new Point(29, 114);
-            lblNombreVendedor.Name = "lblNombreVendedor";
-            lblNombreVendedor.Size = new Size(134, 20);
-            lblNombreVendedor.TabIndex = 4;
-            lblNombreVendedor.Text = "Nombre Completo";
-            // 
-            // lblFechaNacimientoVendedor
-            // 
-            lblFechaNacimientoVendedor.AutoSize = true;
-            lblFechaNacimientoVendedor.Location = new Point(29, 165);
-            lblFechaNacimientoVendedor.Name = "lblFechaNacimientoVendedor";
-            lblFechaNacimientoVendedor.Size = new Size(128, 20);
-            lblFechaNacimientoVendedor.TabIndex = 6;
-            lblFechaNacimientoVendedor.Text = "Fecha Nacimiento";
-            // 
-            // lblFechaIngresoVendedor
-            // 
-            lblFechaIngresoVendedor.AutoSize = true;
-            lblFechaIngresoVendedor.Location = new Point(29, 219);
-            lblFechaIngresoVendedor.Name = "lblFechaIngresoVendedor";
-            lblFechaIngresoVendedor.Size = new Size(100, 20);
-            lblFechaIngresoVendedor.TabIndex = 8;
-            lblFechaIngresoVendedor.Text = "Fecha Ingreso";
-            // 
-            // txtTelefonoVendedor
-            // 
-            txtTelefonoVendedor.Location = new Point(185, 266);
-            txtTelefonoVendedor.Name = "txtTelefonoVendedor";
-            txtTelefonoVendedor.Size = new Size(125, 27);
-            txtTelefonoVendedor.TabIndex = 11;
-            // 
-            // lblTelefonoVendedor
-            // 
-            lblTelefonoVendedor.AutoSize = true;
-            lblTelefonoVendedor.Location = new Point(29, 273);
-            lblTelefonoVendedor.Name = "lblTelefonoVendedor";
-            lblTelefonoVendedor.Size = new Size(67, 20);
-            lblTelefonoVendedor.TabIndex = 10;
-            lblTelefonoVendedor.Text = "Teléfono";
-            // 
-            // btnAgregarVendedor
-            // 
-            btnAgregarVendedor.Location = new Point(86, 322);
-            btnAgregarVendedor.Name = "btnAgregarVendedor";
-            btnAgregarVendedor.Size = new Size(162, 29);
-            btnAgregarVendedor.TabIndex = 12;
-            btnAgregarVendedor.Text = "Agregar Vendedor";
-            btnAgregarVendedor.UseVisualStyleBackColor = true;
-            // 
-            // dtpFechaNacimientoVendedor
-            // 
-            dtpFechaNacimientoVendedor.Location = new Point(185, 158);
-            dtpFechaNacimientoVendedor.Name = "dtpFechaNacimientoVendedor";
-            dtpFechaNacimientoVendedor.Size = new Size(282, 27);
-            dtpFechaNacimientoVendedor.TabIndex = 13;
-            // 
-            // dtpFechaIngresoVendedor
-            // 
-            dtpFechaIngresoVendedor.Location = new Point(185, 212);
-            dtpFechaIngresoVendedor.Name = "dtpFechaIngresoVendedor";
-            dtpFechaIngresoVendedor.Size = new Size(282, 27);
-            dtpFechaIngresoVendedor.TabIndex = 14;
-            // 
-            // dgvVendedores
-            // 
-            dgvVendedores.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dgvVendedores.Location = new Point(484, 59);
-            dgvVendedores.Name = "dgvVendedores";
-            dgvVendedores.RowHeadersWidth = 51;
-            dgvVendedores.Size = new Size(710, 306);
-            dgvVendedores.TabIndex = 15;
-            // 
-            // btnMostrarVendedores
-            // 
-            btnMostrarVendedores.Location = new Point(782, 18);
-            btnMostrarVendedores.Name = "btnMostrarVendedores";
-            btnMostrarVendedores.Size = new Size(168, 29);
-            btnMostrarVendedores.TabIndex = 16;
-            btnMostrarVendedores.Text = "Mostrar Vendedores";
-            btnMostrarVendedores.UseVisualStyleBackColor = true;
-            // 
-            // lblIdSucursal
-            // 
-            lblIdSucursal.AutoSize = true;
-            lblIdSucursal.Location = new Point(26, 15);
-            lblIdSucursal.Name = "lblIdSucursal";
-            lblIdSucursal.Size = new Size(80, 20);
-            lblIdSucursal.TabIndex = 0;
-            lblIdSucursal.Text = "Id Sucursal";
-            // 
-            // txtIdSucursal
-            // 
-            txtIdSucursal.Location = new Point(185, 8);
-            txtIdSucursal.Name = "txtIdSucursal";
-            txtIdSucursal.Size = new Size(125, 27);
-            txtIdSucursal.TabIndex = 1;
-            // 
-            // txtNombreSucursal
-            // 
-            txtNombreSucursal.Location = new Point(185, 51);
-            txtNombreSucursal.Name = "txtNombreSucursal";
-            txtNombreSucursal.Size = new Size(125, 27);
-            txtNombreSucursal.TabIndex = 3;
-            txtNombreSucursal.TextChanged += textBox2_TextChanged;
-            // 
-            // lblNombreSucursal
-            // 
-            lblNombreSucursal.AutoSize = true;
-            lblNombreSucursal.Location = new Point(26, 58);
-            lblNombreSucursal.Name = "lblNombreSucursal";
-            lblNombreSucursal.Size = new Size(68, 20);
-            lblNombreSucursal.TabIndex = 2;
-            lblNombreSucursal.Text = "Nombre ";
-            // 
-            // txtDireccionSucursal
-            // 
-            txtDireccionSucursal.Location = new Point(185, 97);
-            txtDireccionSucursal.Name = "txtDireccionSucursal";
-            txtDireccionSucursal.Size = new Size(125, 27);
-            txtDireccionSucursal.TabIndex = 5;
-            // 
-            // lblDireccionSucursal
-            // 
-            lblDireccionSucursal.AutoSize = true;
-            lblDireccionSucursal.Location = new Point(26, 104);
-            lblDireccionSucursal.Name = "lblDireccionSucursal";
-            lblDireccionSucursal.Size = new Size(72, 20);
-            lblDireccionSucursal.TabIndex = 4;
-            lblDireccionSucursal.Text = "Dirección";
-            // 
-            // txtTelefonoSucursal
-            // 
-            txtTelefonoSucursal.Location = new Point(185, 143);
-            txtTelefonoSucursal.Name = "txtTelefonoSucursal";
-            txtTelefonoSucursal.Size = new Size(125, 27);
-            txtTelefonoSucursal.TabIndex = 7;
-            // 
-            // lblTelefonoSucursal
-            // 
-            lblTelefonoSucursal.AutoSize = true;
-            lblTelefonoSucursal.Location = new Point(26, 150);
-            lblTelefonoSucursal.Name = "lblTelefonoSucursal";
-            lblTelefonoSucursal.Size = new Size(67, 20);
-            lblTelefonoSucursal.TabIndex = 6;
-            lblTelefonoSucursal.Text = "Teléfono";
-            // 
-            // lblVendedorEncargado
-            // 
-            lblVendedorEncargado.AutoSize = true;
-            lblVendedorEncargado.Location = new Point(26, 198);
-            lblVendedorEncargado.Name = "lblVendedorEncargado";
-            lblVendedorEncargado.Size = new Size(148, 20);
-            lblVendedorEncargado.TabIndex = 8;
-            lblVendedorEncargado.Text = "Vendedor Encargado";
-            // 
-            // lblSucursalActiva
-            // 
-            lblSucursalActiva.AutoSize = true;
-            lblSucursalActiva.Location = new Point(26, 247);
-            lblSucursalActiva.Name = "lblSucursalActiva";
-            lblSucursalActiva.Size = new Size(50, 20);
-            lblSucursalActiva.TabIndex = 10;
-            lblSucursalActiva.Text = "Activa";
-            // 
-            // cmbVendedorSucursal
-            // 
-            cmbVendedorSucursal.FormattingEnabled = true;
-            cmbVendedorSucursal.Location = new Point(185, 190);
-            cmbVendedorSucursal.Name = "cmbVendedorSucursal";
-            cmbVendedorSucursal.Size = new Size(151, 28);
-            cmbVendedorSucursal.TabIndex = 12;
-            // 
-            // chkSucursalActiva
-            // 
-            chkSucursalActiva.AutoSize = true;
-            chkSucursalActiva.Location = new Point(185, 243);
-            chkSucursalActiva.Name = "chkSucursalActiva";
-            chkSucursalActiva.Size = new Size(18, 17);
-            chkSucursalActiva.TabIndex = 13;
-            chkSucursalActiva.UseVisualStyleBackColor = true;
-            // 
-            // btnAgregarSucursal
-            // 
-            btnAgregarSucursal.Location = new Point(78, 294);
-            btnAgregarSucursal.Name = "btnAgregarSucursal";
-            btnAgregarSucursal.Size = new Size(193, 29);
-            btnAgregarSucursal.TabIndex = 14;
-            btnAgregarSucursal.Text = "Agregar Sucursal";
-            btnAgregarSucursal.UseVisualStyleBackColor = true;
-            // 
-            // btnMostrarSucursales
-            // 
-            btnMostrarSucursales.Location = new Point(705, 15);
-            btnMostrarSucursales.Name = "btnMostrarSucursales";
-            btnMostrarSucursales.Size = new Size(206, 29);
-            btnMostrarSucursales.TabIndex = 15;
-            btnMostrarSucursales.Text = "Mostrar Sucursales";
-            btnMostrarSucursales.UseVisualStyleBackColor = true;
-            // 
-            // dgvSucursales
-            // 
-            dgvSucursales.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dgvSucursales.Location = new Point(389, 58);
-            dgvSucursales.Name = "dgvSucursales";
-            dgvSucursales.RowHeadersWidth = 51;
-            dgvSucursales.Size = new Size(790, 309);
-            dgvSucursales.TabIndex = 16;
+            // chkClienteActivo
+            // 
+            chkClienteActivo.AutoSize = true;
+            chkClienteActivo.Location = new Point(174, 276);
+            chkClienteActivo.Name = "chkClienteActivo";
+            chkClienteActivo.Size = new Size(18, 17);
+            chkClienteActivo.TabIndex = 32;
+            chkClienteActivo.UseVisualStyleBackColor = true;
             // 
             // btnMostrarClientes
             // 
@@ -828,6 +818,7 @@
             btnMostrarClientes.TabIndex = 31;
             btnMostrarClientes.Text = "Mostrar Clientes";
             btnMostrarClientes.UseVisualStyleBackColor = true;
+            btnMostrarClientes.Click += btnMostrarClientes_Click;
             // 
             // dgvClientes
             // 
@@ -860,6 +851,7 @@
             btnAgregarCliente.TabIndex = 27;
             btnAgregarCliente.Text = "Agregar Cliente";
             btnAgregarCliente.UseVisualStyleBackColor = true;
+            btnAgregarCliente.Click += btnAgregarCliente_Click;
             // 
             // lblClienteActivo
             // 
@@ -936,31 +928,69 @@
             lblIdCliente.TabIndex = 17;
             lblIdCliente.Text = "Id Cliente";
             // 
-            // chkClienteActivo
+            // tabPage6
             // 
-            chkClienteActivo.AutoSize = true;
-            chkClienteActivo.Location = new Point(174, 276);
-            chkClienteActivo.Name = "chkClienteActivo";
-            chkClienteActivo.Size = new Size(18, 17);
-            chkClienteActivo.TabIndex = 32;
-            chkClienteActivo.UseVisualStyleBackColor = true;
+            tabPage6.Controls.Add(btnMostrarVxS);
+            tabPage6.Controls.Add(dgvVehiculosxSucursal);
+            tabPage6.Controls.Add(btnAgregarVxS);
+            tabPage6.Controls.Add(txtCantidadVxS);
+            tabPage6.Controls.Add(lblCantidadVxS);
+            tabPage6.Controls.Add(cmbVehiculoVxS);
+            tabPage6.Controls.Add(lblVehiculoVxS);
+            tabPage6.Controls.Add(cmbSucursalVxS);
+            tabPage6.Controls.Add(lblSucursalVxS);
+            tabPage6.Location = new Point(4, 29);
+            tabPage6.Name = "tabPage6";
+            tabPage6.Padding = new Padding(3);
+            tabPage6.Size = new Size(1200, 390);
+            tabPage6.TabIndex = 5;
+            tabPage6.Text = "Vehículo x Sucursal";
+            tabPage6.UseVisualStyleBackColor = true;
             // 
-            // lblSucursalVxS
+            // btnMostrarVxS
             // 
-            lblSucursalVxS.AutoSize = true;
-            lblSucursalVxS.Location = new Point(38, 31);
-            lblSucursalVxS.Name = "lblSucursalVxS";
-            lblSucursalVxS.Size = new Size(63, 20);
-            lblSucursalVxS.TabIndex = 0;
-            lblSucursalVxS.Text = "Sucursal";
+            btnMostrarVxS.Location = new Point(693, 19);
+            btnMostrarVxS.Name = "btnMostrarVxS";
+            btnMostrarVxS.Size = new Size(282, 29);
+            btnMostrarVxS.TabIndex = 8;
+            btnMostrarVxS.Text = "Mostrar Vehiculos por Sucursal";
+            btnMostrarVxS.UseVisualStyleBackColor = true;
+            btnMostrarVxS.Click += btnMostrarVxS_Click;
             // 
-            // cmbSucursalVxS
+            // dgvVehiculosxSucursal
             // 
-            cmbSucursalVxS.FormattingEnabled = true;
-            cmbSucursalVxS.Location = new Point(185, 23);
-            cmbSucursalVxS.Name = "cmbSucursalVxS";
-            cmbSucursalVxS.Size = new Size(151, 28);
-            cmbSucursalVxS.TabIndex = 1;
+            dgvVehiculosxSucursal.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            dgvVehiculosxSucursal.Location = new Point(456, 64);
+            dgvVehiculosxSucursal.Name = "dgvVehiculosxSucursal";
+            dgvVehiculosxSucursal.RowHeadersWidth = 51;
+            dgvVehiculosxSucursal.Size = new Size(706, 292);
+            dgvVehiculosxSucursal.TabIndex = 7;
+            // 
+            // btnAgregarVxS
+            // 
+            btnAgregarVxS.Location = new Point(67, 203);
+            btnAgregarVxS.Name = "btnAgregarVxS";
+            btnAgregarVxS.Size = new Size(231, 29);
+            btnAgregarVxS.TabIndex = 6;
+            btnAgregarVxS.Text = "Agregar Vehiculo a Sucursal";
+            btnAgregarVxS.UseVisualStyleBackColor = true;
+            btnAgregarVxS.Click += btnAgregarVxS_Click;
+            // 
+            // txtCantidadVxS
+            // 
+            txtCantidadVxS.Location = new Point(185, 138);
+            txtCantidadVxS.Name = "txtCantidadVxS";
+            txtCantidadVxS.Size = new Size(125, 27);
+            txtCantidadVxS.TabIndex = 5;
+            // 
+            // lblCantidadVxS
+            // 
+            lblCantidadVxS.AutoSize = true;
+            lblCantidadVxS.Location = new Point(44, 145);
+            lblCantidadVxS.Name = "lblCantidadVxS";
+            lblCantidadVxS.Size = new Size(69, 20);
+            lblCantidadVxS.TabIndex = 4;
+            lblCantidadVxS.Text = "Cantidad";
             // 
             // cmbVehiculoVxS
             // 
@@ -979,57 +1009,34 @@
             lblVehiculoVxS.TabIndex = 2;
             lblVehiculoVxS.Text = "Vehículo";
             // 
-            // lblCantidadVxS
+            // cmbSucursalVxS
             // 
-            lblCantidadVxS.AutoSize = true;
-            lblCantidadVxS.Location = new Point(44, 145);
-            lblCantidadVxS.Name = "lblCantidadVxS";
-            lblCantidadVxS.Size = new Size(69, 20);
-            lblCantidadVxS.TabIndex = 4;
-            lblCantidadVxS.Text = "Cantidad";
+            cmbSucursalVxS.FormattingEnabled = true;
+            cmbSucursalVxS.Location = new Point(185, 23);
+            cmbSucursalVxS.Name = "cmbSucursalVxS";
+            cmbSucursalVxS.Size = new Size(151, 28);
+            cmbSucursalVxS.TabIndex = 1;
             // 
-            // txtCantidadVxS
+            // lblSucursalVxS
             // 
-            txtCantidadVxS.Location = new Point(185, 138);
-            txtCantidadVxS.Name = "txtCantidadVxS";
-            txtCantidadVxS.Size = new Size(125, 27);
-            txtCantidadVxS.TabIndex = 5;
+            lblSucursalVxS.AutoSize = true;
+            lblSucursalVxS.Location = new Point(38, 31);
+            lblSucursalVxS.Name = "lblSucursalVxS";
+            lblSucursalVxS.Size = new Size(63, 20);
+            lblSucursalVxS.TabIndex = 0;
+            lblSucursalVxS.Text = "Sucursal";
             // 
-            // btnAgregarVxS
+            // tabPage7
             // 
-            btnAgregarVxS.Location = new Point(67, 203);
-            btnAgregarVxS.Name = "btnAgregarVxS";
-            btnAgregarVxS.Size = new Size(231, 29);
-            btnAgregarVxS.TabIndex = 6;
-            btnAgregarVxS.Text = "Agregar Vehiculo a Sucursal";
-            btnAgregarVxS.UseVisualStyleBackColor = true;
-            // 
-            // dgvVehiculosxSucursal
-            // 
-            dgvVehiculosxSucursal.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dgvVehiculosxSucursal.Location = new Point(456, 64);
-            dgvVehiculosxSucursal.Name = "dgvVehiculosxSucursal";
-            dgvVehiculosxSucursal.RowHeadersWidth = 51;
-            dgvVehiculosxSucursal.Size = new Size(706, 292);
-            dgvVehiculosxSucursal.TabIndex = 7;
-            // 
-            // btnMostrarVxS
-            // 
-            btnMostrarVxS.Location = new Point(693, 19);
-            btnMostrarVxS.Name = "btnMostrarVxS";
-            btnMostrarVxS.Size = new Size(282, 29);
-            btnMostrarVxS.TabIndex = 8;
-            btnMostrarVxS.Text = "Mostrar Vehiculos por Sucursal";
-            btnMostrarVxS.UseVisualStyleBackColor = true;
-            // 
-            // btnMostrarVentas
-            // 
-            btnMostrarVentas.Location = new Point(28, 25);
-            btnMostrarVentas.Name = "btnMostrarVentas";
-            btnMostrarVentas.Size = new Size(167, 29);
-            btnMostrarVentas.TabIndex = 0;
-            btnMostrarVentas.Text = "Mostrar Ventas";
-            btnMostrarVentas.UseVisualStyleBackColor = true;
+            tabPage7.Controls.Add(dgvVentas);
+            tabPage7.Controls.Add(btnMostrarVentas);
+            tabPage7.Location = new Point(4, 29);
+            tabPage7.Name = "tabPage7";
+            tabPage7.Padding = new Padding(3);
+            tabPage7.Size = new Size(1200, 390);
+            tabPage7.TabIndex = 6;
+            tabPage7.Text = "Ventas";
+            tabPage7.UseVisualStyleBackColor = true;
             // 
             // dgvVentas
             // 
@@ -1039,6 +1046,16 @@
             dgvVentas.RowHeadersWidth = 51;
             dgvVentas.Size = new Size(1141, 292);
             dgvVentas.TabIndex = 1;
+            // 
+            // btnMostrarVentas
+            // 
+            btnMostrarVentas.Location = new Point(28, 25);
+            btnMostrarVentas.Name = "btnMostrarVentas";
+            btnMostrarVentas.Size = new Size(167, 29);
+            btnMostrarVentas.TabIndex = 0;
+            btnMostrarVentas.Text = "Mostrar Ventas";
+            btnMostrarVentas.UseVisualStyleBackColor = true;
+            btnMostrarVentas.Click += btnMostrarVentas_Click;
             // 
             // FrmServidor
             // 
@@ -1056,23 +1073,23 @@
             tabControl1.ResumeLayout(false);
             tabPage1.ResumeLayout(false);
             tabPage1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)dgvCategorias).EndInit();
             tabPage2.ResumeLayout(false);
             tabPage2.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)dgvVehiculos).EndInit();
             tabPage3.ResumeLayout(false);
             tabPage3.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)dgvVendedores).EndInit();
             tabPage4.ResumeLayout(false);
             tabPage4.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)dgvSucursales).EndInit();
             tabPage5.ResumeLayout(false);
             tabPage5.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)dgvClientes).EndInit();
             tabPage6.ResumeLayout(false);
             tabPage6.PerformLayout();
-            tabPage7.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)dgvCategorias).EndInit();
-            ((System.ComponentModel.ISupportInitialize)dgvVehiculos).EndInit();
-            ((System.ComponentModel.ISupportInitialize)dgvVendedores).EndInit();
-            ((System.ComponentModel.ISupportInitialize)dgvSucursales).EndInit();
-            ((System.ComponentModel.ISupportInitialize)dgvClientes).EndInit();
             ((System.ComponentModel.ISupportInitialize)dgvVehiculosxSucursal).EndInit();
+            tabPage7.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)dgvVentas).EndInit();
             ResumeLayout(false);
             PerformLayout();
@@ -1093,7 +1110,7 @@
         private TabPage tabPage5;
         private TabPage tabPage6;
         private TabPage tabPage7;
-        private TextBox txtDescripcion;
+        private TextBox txtDescripcionCategoria;
         private Label lblDescripcion;
         private TextBox txtNombreCategoria;
         private Label lblNombreCategoria;

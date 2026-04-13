@@ -6,7 +6,19 @@ using System.Threading.Tasks;
 
 namespace Proyecto2.Entidades
 {
-    internal class VehiculoxSucursal
+    public class VehiculoxSucursal
     {
+        public Sucursal Sucursal { get; set; } = new Sucursal();
+        public Vehiculos Vehiculo { get; set; } = new Vehiculos();
+        public int Cantidad { get; set; }
+
+        public VehiculoxSucursal() { }
+
+        public VehiculoxSucursal(Sucursal sucursal, Vehiculos vehiculo, int cantidad)
+        {
+            Sucursal = sucursal;
+            Vehiculo = vehiculo;
+            Cantidad = cantidad;
+        }
     }
 }

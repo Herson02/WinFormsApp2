@@ -29,21 +29,21 @@
         private void InitializeComponent()
         {
             grpConexion = new GroupBox();
-            lblIdentificacionCliente = new Label();
-            txtIdentificacionCliente = new TextBox();
-            btnConectar = new Button();
-            btnDesconectar = new Button();
-            lblClienteValidado = new Label();
             lblEstadoConexion = new Label();
+            lblClienteValidado = new Label();
+            btnDesconectar = new Button();
+            btnConectar = new Button();
+            txtIdentificacionCliente = new TextBox();
+            lblIdentificacionCliente = new Label();
             groupBox1 = new GroupBox();
-            lblSucursal = new Label();
-            cmbSucursales = new ComboBox();
-            btnConsultarVehiculos = new Button();
-            dgvVehiculosDisponibles = new DataGridView();
             btnComprarVehiculo = new Button();
+            dgvVehiculosDisponibles = new DataGridView();
+            btnConsultarVehiculos = new Button();
+            cmbSucursales = new ComboBox();
+            lblSucursal = new Label();
             grpConsultas = new GroupBox();
-            btnVerCompras = new Button();
             dgvComprasCliente = new DataGridView();
+            btnVerCompras = new Button();
             grpConexion.SuspendLayout();
             groupBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)dgvVehiculosDisponibles).BeginInit();
@@ -66,39 +66,14 @@
             grpConexion.TabStop = false;
             grpConexion.Text = "Conexión y Validación";
             // 
-            // lblIdentificacionCliente
+            // lblEstadoConexion
             // 
-            lblIdentificacionCliente.AutoSize = true;
-            lblIdentificacionCliente.Location = new Point(27, 41);
-            lblIdentificacionCliente.Name = "lblIdentificacionCliente";
-            lblIdentificacionCliente.Size = new Size(99, 20);
-            lblIdentificacionCliente.TabIndex = 0;
-            lblIdentificacionCliente.Text = "Identificación";
-            // 
-            // txtIdentificacionCliente
-            // 
-            txtIdentificacionCliente.Location = new Point(151, 41);
-            txtIdentificacionCliente.Name = "txtIdentificacionCliente";
-            txtIdentificacionCliente.Size = new Size(125, 27);
-            txtIdentificacionCliente.TabIndex = 1;
-            // 
-            // btnConectar
-            // 
-            btnConectar.Location = new Point(32, 91);
-            btnConectar.Name = "btnConectar";
-            btnConectar.Size = new Size(94, 29);
-            btnConectar.TabIndex = 2;
-            btnConectar.Text = "Conectar";
-            btnConectar.UseVisualStyleBackColor = true;
-            // 
-            // btnDesconectar
-            // 
-            btnDesconectar.Location = new Point(151, 91);
-            btnDesconectar.Name = "btnDesconectar";
-            btnDesconectar.Size = new Size(125, 29);
-            btnDesconectar.TabIndex = 3;
-            btnDesconectar.Text = "Desonectar";
-            btnDesconectar.UseVisualStyleBackColor = true;
+            lblEstadoConexion.AutoSize = true;
+            lblEstadoConexion.Location = new Point(68, 173);
+            lblEstadoConexion.Name = "lblEstadoConexion";
+            lblEstadoConexion.Size = new Size(154, 20);
+            lblEstadoConexion.TabIndex = 5;
+            lblEstadoConexion.Text = "Estado: desconectado";
             // 
             // lblClienteValidado
             // 
@@ -109,14 +84,41 @@
             lblClienteValidado.TabIndex = 4;
             lblClienteValidado.Text = "Cliente: no validado";
             // 
-            // lblEstadoConexion
+            // btnDesconectar
             // 
-            lblEstadoConexion.AutoSize = true;
-            lblEstadoConexion.Location = new Point(68, 173);
-            lblEstadoConexion.Name = "lblEstadoConexion";
-            lblEstadoConexion.Size = new Size(154, 20);
-            lblEstadoConexion.TabIndex = 5;
-            lblEstadoConexion.Text = "Estado: desconectado";
+            btnDesconectar.Location = new Point(151, 91);
+            btnDesconectar.Name = "btnDesconectar";
+            btnDesconectar.Size = new Size(125, 29);
+            btnDesconectar.TabIndex = 3;
+            btnDesconectar.Text = "Desonectar";
+            btnDesconectar.UseVisualStyleBackColor = true;
+            btnDesconectar.Click += btnDesconectar_Click;
+            // 
+            // btnConectar
+            // 
+            btnConectar.Location = new Point(32, 91);
+            btnConectar.Name = "btnConectar";
+            btnConectar.Size = new Size(94, 29);
+            btnConectar.TabIndex = 2;
+            btnConectar.Text = "Conectar";
+            btnConectar.UseVisualStyleBackColor = true;
+            btnConectar.Click += btnConectar_Click;
+            // 
+            // txtIdentificacionCliente
+            // 
+            txtIdentificacionCliente.Location = new Point(151, 41);
+            txtIdentificacionCliente.Name = "txtIdentificacionCliente";
+            txtIdentificacionCliente.Size = new Size(125, 27);
+            txtIdentificacionCliente.TabIndex = 1;
+            // 
+            // lblIdentificacionCliente
+            // 
+            lblIdentificacionCliente.AutoSize = true;
+            lblIdentificacionCliente.Location = new Point(27, 41);
+            lblIdentificacionCliente.Name = "lblIdentificacionCliente";
+            lblIdentificacionCliente.Size = new Size(99, 20);
+            lblIdentificacionCliente.TabIndex = 0;
+            lblIdentificacionCliente.Text = "Identificación";
             // 
             // groupBox1
             // 
@@ -132,31 +134,15 @@
             groupBox1.TabStop = false;
             groupBox1.Text = "Compra";
             // 
-            // lblSucursal
+            // btnComprarVehiculo
             // 
-            lblSucursal.AutoSize = true;
-            lblSucursal.Location = new Point(32, 39);
-            lblSucursal.Name = "lblSucursal";
-            lblSucursal.Size = new Size(63, 20);
-            lblSucursal.TabIndex = 0;
-            lblSucursal.Text = "Sucursal";
-            // 
-            // cmbSucursales
-            // 
-            cmbSucursales.FormattingEnabled = true;
-            cmbSucursales.Location = new Point(136, 31);
-            cmbSucursales.Name = "cmbSucursales";
-            cmbSucursales.Size = new Size(151, 28);
-            cmbSucursales.TabIndex = 1;
-            // 
-            // btnConsultarVehiculos
-            // 
-            btnConsultarVehiculos.Location = new Point(32, 82);
-            btnConsultarVehiculos.Name = "btnConsultarVehiculos";
-            btnConsultarVehiculos.Size = new Size(170, 29);
-            btnConsultarVehiculos.TabIndex = 2;
-            btnConsultarVehiculos.Text = "Consultar Vehículos";
-            btnConsultarVehiculos.UseVisualStyleBackColor = true;
+            btnComprarVehiculo.Location = new Point(32, 313);
+            btnComprarVehiculo.Name = "btnComprarVehiculo";
+            btnComprarVehiculo.Size = new Size(170, 29);
+            btnComprarVehiculo.TabIndex = 4;
+            btnComprarVehiculo.Text = "Comprar Vehículo";
+            btnComprarVehiculo.UseVisualStyleBackColor = true;
+            btnComprarVehiculo.Click += btnComprarVehiculo_Click;
             // 
             // dgvVehiculosDisponibles
             // 
@@ -171,14 +157,32 @@
             dgvVehiculosDisponibles.Size = new Size(817, 159);
             dgvVehiculosDisponibles.TabIndex = 3;
             // 
-            // btnComprarVehiculo
+            // btnConsultarVehiculos
             // 
-            btnComprarVehiculo.Location = new Point(32, 313);
-            btnComprarVehiculo.Name = "btnComprarVehiculo";
-            btnComprarVehiculo.Size = new Size(170, 29);
-            btnComprarVehiculo.TabIndex = 4;
-            btnComprarVehiculo.Text = "Comprar Vehículo";
-            btnComprarVehiculo.UseVisualStyleBackColor = true;
+            btnConsultarVehiculos.Location = new Point(32, 82);
+            btnConsultarVehiculos.Name = "btnConsultarVehiculos";
+            btnConsultarVehiculos.Size = new Size(170, 29);
+            btnConsultarVehiculos.TabIndex = 2;
+            btnConsultarVehiculos.Text = "Consultar Vehículos";
+            btnConsultarVehiculos.UseVisualStyleBackColor = true;
+            btnConsultarVehiculos.Click += btnConsultarVehiculos_Click;
+            // 
+            // cmbSucursales
+            // 
+            cmbSucursales.FormattingEnabled = true;
+            cmbSucursales.Location = new Point(136, 31);
+            cmbSucursales.Name = "cmbSucursales";
+            cmbSucursales.Size = new Size(151, 28);
+            cmbSucursales.TabIndex = 1;
+            // 
+            // lblSucursal
+            // 
+            lblSucursal.AutoSize = true;
+            lblSucursal.Location = new Point(32, 39);
+            lblSucursal.Name = "lblSucursal";
+            lblSucursal.Size = new Size(63, 20);
+            lblSucursal.TabIndex = 0;
+            lblSucursal.Text = "Sucursal";
             // 
             // grpConsultas
             // 
@@ -191,15 +195,6 @@
             grpConsultas.TabStop = false;
             grpConsultas.Text = "Compras Realizadas";
             // 
-            // btnVerCompras
-            // 
-            btnVerCompras.Location = new Point(17, 37);
-            btnVerCompras.Name = "btnVerCompras";
-            btnVerCompras.Size = new Size(138, 29);
-            btnVerCompras.TabIndex = 0;
-            btnVerCompras.Text = "Ver Compras";
-            btnVerCompras.UseVisualStyleBackColor = true;
-            // 
             // dgvComprasCliente
             // 
             dgvComprasCliente.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
@@ -208,6 +203,16 @@
             dgvComprasCliente.RowHeadersWidth = 51;
             dgvComprasCliente.Size = new Size(495, 155);
             dgvComprasCliente.TabIndex = 1;
+            // 
+            // btnVerCompras
+            // 
+            btnVerCompras.Location = new Point(17, 37);
+            btnVerCompras.Name = "btnVerCompras";
+            btnVerCompras.Size = new Size(138, 29);
+            btnVerCompras.TabIndex = 0;
+            btnVerCompras.Text = "Ver Compras";
+            btnVerCompras.UseVisualStyleBackColor = true;
+            btnVerCompras.Click += this.btnVerCompras_Click;
             // 
             // FrmCliente
             // 
@@ -219,6 +224,7 @@
             Controls.Add(grpConexion);
             Name = "FrmCliente";
             Text = "Cliente AutoMarket";
+            Load += FrmCliente_Load;
             grpConexion.ResumeLayout(false);
             grpConexion.PerformLayout();
             groupBox1.ResumeLayout(false);

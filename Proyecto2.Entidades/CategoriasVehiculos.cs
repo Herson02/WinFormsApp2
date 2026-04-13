@@ -6,7 +6,19 @@ using System.Threading.Tasks;
 
 namespace Proyecto2.Entidades
 {
-    internal class CategoriasVehiculos
+    public class CategoriasVehiculos
     {
+        public int IdCategoria { get; set; }
+        public string NombreCategoria { get; set; } = string.Empty;
+        public string Descripcion { get; set; } = string.Empty;
+
+        public CategoriasVehiculos() { }
+
+        public CategoriasVehiculos(int idCategoria, string nombreCategoria, string descripcion)
+        {
+            IdCategoria = idCategoria;
+            NombreCategoria = nombreCategoria;
+            Descripcion = descripcion;
+        }
     }
 }
